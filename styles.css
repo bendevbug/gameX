@@ -424,8 +424,7 @@ img {
 @media (max-width: 818px) {
     .diminuir-width {
         height: 400px;
-        width: 300px;
-        margin-top: 30rem;
+        width: 100%;
     }
     .aumentar-img {
         width: 400px;
@@ -449,6 +448,30 @@ img {
         font-size: 1.5rem;
         width: 30rem;
         text-align: center;
+    }
+    .img-game {
+        /* background-color: #9747FF; */
+        justify-content: center;
+        align-items: center;
+        display: grid;
+    }
+    .conteudo-text {
+        border: 1px solid red;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1 {
+        margin-left: 0;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-game .img-principal {
+        top: -200px;
+        width: 50%;
+        display: grid;
+        left: 12rem;
     }
 }
 
@@ -580,6 +603,13 @@ img {
     }
 }
 
+@media (min-width: 940px) {
+    #conteudo-footer2 span {
+        display: none;
+        /* background-color: #9747FF; */
+    }
+}
+
 @media (max-width: 817px) {
     #conteudo-footer {
         left: 200px;
@@ -598,29 +628,13 @@ img {
     #footer {
         padding-left: 0px;
     }
-    .text1 {
-        margin-left: 0;
-        left: 8rem;
-    }
-    .img-game .img-principal {
-        left: -10rem;
-        padding-top: 0;
-    }
-}
-
-@media (min-width: 940px) {
-    #conteudo-footer2 span {
-        display: none;
-        /* background-color: #9747FF; */
-    }
 }
 
 @media (max-width: 690px) {
     .text1 {
         width: 100%;
-        left: 5rem;
-        display: block;
-        margin: 11.7rem 20px 0px 8rem;
+        display: grid;
+        margin-top: -25rem;
     }
     .text1 h1 {
         font-size: 2rem;
@@ -638,8 +652,18 @@ img {
     .img-game .img-principal {
         /* background-color: #49158d; */
         left: 9rem;
-        width: 90%;
-        top: 12rem;
+        width: 50%;
+    }
+    .img-game {
+        /* background-color: red; */
+        width: 100%;
+        margin-top: 40rem;
+    }
+    .conteudo-text {
+        /* border: 1px solid red; */
+        justify-content: center;
+        align-items: center;
+        display: grid;
     }
     #conteudo-footer {
         left: 17rem;
