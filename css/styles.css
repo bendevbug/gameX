@@ -33,7 +33,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     box-sizing: border-box;
     color: white;
     text-transform: uppercase;
@@ -113,6 +113,10 @@
     margin-left: 2rem;
 }
 
+.icon a img {
+    width: 80%;
+}
+
 .login {
     position: relative;
     margin-right: 2rem;
@@ -186,7 +190,7 @@
 .conteudo-text {
     display: flex;
     height: 1100px;
-    background-image: url(images/body-horizon2.png);
+    background-image: url(../images/body-horizon2.png);
     background-size: cover;
     background-position: center;
 }
@@ -401,7 +405,6 @@ img {
 @media screen and (max-width: 1693px) {
     .diminui-img {
         width: 90%;
-        /* border: 1px solid blue; */
     }
 }
 
@@ -450,13 +453,11 @@ img {
         text-align: center;
     }
     .img-game {
-        /* background-color: #9747FF; */
         justify-content: center;
         align-items: center;
         display: grid;
     }
     .conteudo-text {
-        border: 1px solid red;
         display: grid;
         justify-content: center;
         align-items: center;
@@ -476,12 +477,11 @@ img {
 }
 
 
-/* responsivo footer  */
+/* responsivo footer e tela */
 
 @media (max-width: 1615px) {
     #img-footer img {
         width: 10rem;
-        /* background-color: #fff; */
     }
     #img-footer {
         margin-left: -10rem;
@@ -491,7 +491,6 @@ img {
 @media (max-width: 1419px) {
     #img-footer img {
         width: 10rem;
-        /* background-color: red; */
     }
     #img-footer {
         margin-left: -13rem;
@@ -501,7 +500,6 @@ img {
 @media (max-width: 1311px) {
     #img-footer img {
         width: 10rem;
-        /* background-color: green; */
     }
     #img-footer {
         margin-left: -16rem;
@@ -511,7 +509,6 @@ img {
 @media (max-width: 1237px) {
     #img-footer img {
         width: 10rem;
-        /* background-color: purple; */
     }
     #img-footer {
         margin-left: -20rem;
@@ -522,10 +519,8 @@ img {
     #img-footer img {
         width: 10rem;
         display: none;
-        /* background-color: grey; */
     }
     #icons-redes {
-        /* background-color: #49158d; */
         top: 50px;
     }
 }
@@ -533,7 +528,6 @@ img {
 @media (max-width: 1183px) {
     #img-footer img {
         display: block;
-        /* background-color: grey; */
         width: 0px;
     }
     #img-footer {
@@ -542,7 +536,6 @@ img {
         display: none;
     }
     #icons-redes {
-        /* background-color: #49158d; */
         top: 50px;
         left: -10rem;
     }
@@ -560,10 +553,8 @@ img {
 @media (max-width: 1035px) {
     .retira {
         display: none;
-        /* background-color: grey; */
     }
     #icons-redes {
-        /* background-color: black; */
         top: 50px;
         width: 350px;
         display: none;
@@ -595,34 +586,28 @@ img {
 @media (max-width: 917px) {
     #conteudo-footer {
         margin-left: -90px;
-        /* background-color: red; */
     }
     #conteudo-footer2 {
         left: 280px;
-        /* background-color: red; */
     }
 }
 
 @media (min-width: 940px) {
     #conteudo-footer2 span {
         display: none;
-        /* background-color: #9747FF; */
     }
 }
 
 @media (max-width: 817px) {
     #conteudo-footer {
         left: 200px;
-        /* background-color: green; */
     }
     #conteudo-footer2 {
         left: 200px;
-        /* background-color: red; */
     }
     #icons-redes .links {
         display: none;
         left: -25rem;
-        /* background-color: purple; */
         width: 0px;
     }
     #footer {
@@ -638,29 +623,24 @@ img {
     }
     .text1 h1 {
         font-size: 2rem;
-        /* background-color: red; */
         width: 100%;
     }
     .text1 p {
         font-size: 1.3rem;
-        /* background-color: red; */
         width: 100%;
     }
     .aumenta-txt {
         position: absolute;
     }
     .img-game .img-principal {
-        /* background-color: #49158d; */
-        left: 9rem;
+        left: 7rem;
         width: 50%;
     }
     .img-game {
-        /* background-color: red; */
         width: 100%;
         margin-top: 40rem;
     }
     .conteudo-text {
-        /* border: 1px solid red; */
         justify-content: center;
         align-items: center;
         display: grid;
@@ -731,10 +711,12 @@ img {
     }
 }
 
+
+/* detalhe de menu responsivo */
+
 @media screen and (min-width: 700px) {
     #menu-responsivo {
         display: none !important;
-        background-color: #f74df7;
     }
 }
 
@@ -744,24 +726,31 @@ img {
 @media (max-width: 430px) {
     .text1 h1 {
         font-size: 2.8rem;
-        /* background-color: red; */
-        margin-left: -1rem;
-        width: min-content;
-        margin-top: -7rem;
+        margin-top: -0.90rem;
+        width: 100%;
     }
     .text1 {
-        width: 1000px;
+        width: 100%;
         text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: grid;
     }
     .text1 p {
-        width: 200px;
+        width: 100%;
         text-align: center;
         margin-left: 0;
+        display: grid;
+    }
+    .img-game {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
     .img-game .img-principal {
-        /* background-color: #49158d; */
         left: 0rem;
-        padding: 20px;
+        width: 100%;
     }
     #conteudo-footer {
         width: min-content;

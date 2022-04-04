@@ -1,3 +1,5 @@
+// menu responsivo
+
 function menu() {
     var x = document.getElementById("menu-responsivo");
     if (x.className === "menu-") {
