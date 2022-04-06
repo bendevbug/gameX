@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=JetBrains+Mono:ital,wght@0,500;1,500&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,600&family=Overpass+Mono:wght@600;700&family=Quantico:ital,wght@0,400;0,700;1,400&family=VT323&display=swap"
+        rel="stylesheet">
+    <!-- ícone -->
+    <link rel="shortcut icon" type="imagex/png" href="images/icon.png">
     <!-- Estilo customizado -->
     <link rel="stylesheet" type="text/css" href="css/styles-login.css">
     <script src="js/script.js"></script>
@@ -28,9 +35,11 @@
                 </a>
                 <div id="inputs">
                     <label>Usuário ou email</label>
-                    <input type="text" placeholder="USUÁRIO OU E-MAIL" class="quantico " onfocus="mudaBg()" onblur="mudaBg2()" id="myInput">
+                    <input type="text" placeholder="USUÁRIO OU E-MAIL" class="quantico campo-texto" onfocus="mudaBg()" onblur="mudaBg2(), errorUserandSenha()" id="myInput">
+                    <h6 id="error">erro! o usuário tem no mínimo 3 caracteres</h6>
                     <label>Senha</label>
-                    <input type="text" placeholder="SENHA" class="quantico " onfocus="mudaBg()" onblur="mudaBg2()" id="myInputs">
+                    <input type="password" minlength="8" placeholder="SENHA" class="quantico campo-texto" onfocus="mudaBg()" onblur="mudaBg2(), errorUserandSenha()" id="myInputs">
+                    <h6 id="error2">erro! a senha tem no mínimo 5 caracteres</h6>
                     <a href="página.html">Oi</a>
                 </div>
             </form>

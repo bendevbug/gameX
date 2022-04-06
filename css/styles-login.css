@@ -92,3 +92,15 @@ label {
     color: #fff;
     text-transform: uppercase;
 }
+
+#error {
+    display: none;
+    color: red;
+    margin: -20px 0px 8px 80px;
+}
+
+#error2 {
+    color: red;
+    margin: -20px 0 20px 80px;
+    display: none;
+}
