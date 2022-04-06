@@ -10,7 +10,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- Estilo customizado -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles-login.css">
     <script src="js/script.js"></script>
 
 
@@ -19,100 +19,23 @@
 
 <body>
 
-    <main class="container-fluid">
-        <header id="header">
-            <nav id="navbar">
-                <div class="icon">
-                    <a href="index.html">
-                        <img src="images/icon2.png">
-                    </a>
+    <main id="container-fluid">
+        <!-- Início de form login -->
+        <section id="box-login">
+            <form>
+                <a href="index.html">
+                    <img src="images/icon2.png">
+                </a>
+                <div id="inputs">
+                    <label>Usuário ou email</label>
+                    <input type="text" placeholder="USUÁRIO OU E-MAIL" class="quantico " onfocus="mudaBg()" onblur="mudaBg2()" id="myInput">
+                    <label>Senha</label>
+                    <input type="text" placeholder="SENHA" class="quantico " onfocus="mudaBg()" onblur="mudaBg2()" id="myInputs">
+                    <a href="página.html">Oi</a>
                 </div>
-                <div class="logo">
-                    <a href="" class="quantico">
-                        ameX
-                    </a>
-                </div>
-                <div class="menu quantico">
-                    <ul>
-                        <li class="border-menu">
-                            <a href="">Início</a>
-                        </li>
-                        <li class="border-menu">
-                            <a href="">Sobre</a>
-                        </li>
-                        <li>
-                            <a href="">Contato</a>
-                        </li>
-                    </ul>
-                    <div class="login aparece">
-                        <a href="#" class="quantico">
-                            Entrar
-                        </a>
-                        <a href="" class="img-login"><img src="images/icon-login.png"></a>
-                    </div>
-                </div>
-                <!-- Para menu responsivo -->
-                <div id="menu-responsivo" class="menu-">
-                    <a href="">Início</a>
-                    <a href="">Sobre</a>
-                    <a href="">Contato</a>
-                    <a href="">Entrar</a>
-                </div>
-                <div class="login">
-                    <a href="#" class="quantico">
-                        Entrar
-                    </a>
-                    <a href="" class="img-login"><img src="images/icon-login.png"></a>
-                </div>
-
-                <img src="images/menu.png" class="menu-toggle" onclick="menu()">
-
-            </nav>
-        </header>
-
-
-
-        <footer id="footer">
-            <div id="img-footer">
-                <img src="images/icon-footer.png">
-            </div>
-            <div id="icons-redes">
-                <a href="" class="links"><img src="images/fbicon.png"></a>
-                <a href="" class="links"><img src="images/tticon.png" class="retira"></a>
-                <a href="" class="links"><img src="images/instaicon.png"></a>
-                <a href=""><img src="images/linkicon.png"></a>
-                <a href="https://github.com/mayzinng"><img src="images/giticon.png"></a>
-            </div>
-            <div id="conteudo-footer" class="josefin">
-                <p>
-                    <a href="">Sobre nós</a><br>
-                    <a href="">Contato</a><br>
-                    <a href="">Informações da empresa</a><br>
-                    <a href="">Trabalhe conosco</a>
-                </p>
-            </div>
-            <div id="conteudo-footer2" class="josefin">
-                <p>
-                    <a href="">FAQ</a><br>
-                    <a href="">Suporte</a><br>
-                    <a href="">CHAT</a>
-                    <span><a href="https://www.linkedin.com/in/maysa-raquel/">Linkedin</a></span>
-                    <span><a href="https://github.com/mayzinng">Github</a></span>
-                </p>
-            </div>
-        </footer>
-
-
-
+            </form>
+        </section>
     </main>
-
-
-
-
-
-
-
-
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

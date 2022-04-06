@@ -1,0 +1,94 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=JetBrains+Mono:ital,wght@0,500;1,500&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;1,600&family=Overpass+Mono:wght@600;700&family=Quantico:ital,wght@0,400;0,700;1,400&family=VT323&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid green; */
+    box-sizing: border-box;
+}
+
+body {
+    height: 1100px;
+    background: rgb(2, 0, 36);
+    background-image: linear-gradient(to top, #290446, #310651, #3a095c, #420d67, #4b1073, #531380, #5c168d, #64199a, #6e1dac, #7820be, #8125d0, #8b29e3);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* fontes */
+
+.josefin {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.overpass {
+    font-family: 'Overpass Mono', monospace;
+}
+
+.quantico {
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+}
+
+#box-login {
+    width: 30rem;
+    height: 600px;
+    display: grid;
+    margin: 0 auto 0 auto;
+    background: #200642;
+    border: 10px solid rgba(147, 97, 255, 0.2);
+    box-shadow: 0px 4px 15px 7px rgba(254, 0, 229, 0.12);
+    display: block;
+}
+
+
+/* form login */
+
+#box-login form a,
+#box-login form a img {
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+#container-fluid {
+    margin: 100px auto 0 auto;
+}
+
+#img-login {
+    background-color: red;
+}
+
+#inputs {
+    margin: 100px auto 30px auto;
+    display: block;
+    width: 100%;
+}
+
+input:first-child {
+    margin: 40px auto 100px auto;
+    display: block;
+}
+
+input {
+    margin: 10px auto 30px auto;
+    display: block;
+    width: 60%;
+    height: 2.5rem;
+    background: #CE99F0;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    padding: 10px;
+    border: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Quantico', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
