@@ -9,7 +9,7 @@
 }
 
 body {
-    height: 1100px;
+    height: 825px;
     background: rgb(2, 0, 36);
     background-image: linear-gradient(to top, #290446, #310651, #3a095c, #420d67, #4b1073, #531380, #5c168d, #64199a, #6e1dac, #7820be, #8125d0, #8b29e3);
     background-position: center;
@@ -46,7 +46,12 @@ body {
 
 /* form login */
 
-#box-login form a,
+#box-login form a {
+    width: 90px;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
 #box-login form a img {
     display: block;
     margin: 10px auto 10px auto;
@@ -54,10 +59,6 @@ body {
 
 #container-fluid {
     margin: 100px auto 0 auto;
-}
-
-#img-login {
-    background-color: red;
 }
 
 #inputs {
@@ -91,6 +92,32 @@ label {
     font-family: 'Quantico', sans-serif;
     color: #fff;
     text-transform: uppercase;
+}
+
+#button {
+    width: 90px;
+    background: #CE99F0;
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #64199a;
+    padding: 3px;
+    transition: all 0.5s;
+}
+
+#button:hover {
+    width: 90px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    border-left: 5px solid #531380;
+    border-bottom: 5px solid #531380;
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 #error {
