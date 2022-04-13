@@ -33,13 +33,13 @@ function mudaBg2() {
 function errorUserandSenha() {
     var user = document.getElementById("myInput");
     var user2 = document.getElementById("myInputs");
-    if (user.value.length <= 3) {
+    if (user.value.length < 3) {
         document.getElementById("myInput").style.border = "1px solid red";
         document.getElementById("error").style.display = "block";
     } else if (user2.value.length < 4) {
         document.getElementById("error2").style.display = "block";
         document.getElementById("myInputs").style.border = "1px solid red";
-    } else if (user.value.length >= 4 && user2.value.length >= 4) {
+    } else if (user.value.length >= 3 && user2.value.length >= 4) {
         document.getElementById("myInput").style.border = "none";
         document.getElementById("myInputs").style.border = "none";
         document.getElementById("error").style.display = "none";
