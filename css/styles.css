@@ -115,6 +115,8 @@
 
 .icon a img {
     width: 80%;
+    left: -1.2rem;
+    position: relative;
 }
 
 .login {
@@ -125,7 +127,7 @@
 .logo {
     font-size: 2.2rem;
     color: #9747FF;
-    margin-left: -0.5rem;
+    margin-left: -1.7rem;
 }
 
 .logo a {
@@ -666,6 +668,9 @@ img {
     }
     .icon img {
         width: 50px;
+    }
+    .icon a {
+        background-color: red;
     }
 }
 
