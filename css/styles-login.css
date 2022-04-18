@@ -83,6 +83,7 @@ input {
     padding: 10px;
     border: none;
     text-align: center;
+    -webkit-text-fill-color: rgb(27, 0, 60) !important;
     color: rgb(27, 0, 60) !important;
 }
 
