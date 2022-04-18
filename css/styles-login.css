@@ -9,7 +9,7 @@
 }
 
 body {
-    height: 825px;
+    height: 100vh;
     background: rgb(2, 0, 36);
     background-image: linear-gradient(to top, #290446, #310651, #3a095c, #420d67, #4b1073, #531380, #5c168d, #64199a, #6e1dac, #7820be, #8125d0, #8b29e3);
     background-position: center;
